@@ -1,0 +1,45 @@
+body {
+    background-color:#995EF4;
+}
+
+h2 {
+    color: lavender;
+}
+
+div {
+    width:80px;
+    height:80px;
+    background-color: #eab1f1;
+    border-radius: 15px;
+    box-shadow:5px 5px 5px #888888;
+    transition:3s;
+    border: 2px solid white;
+    margin: 10px;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+.scale:hover {
+    transform: translate(100px) scale(2);
+}
+
+.skew:hover {
+    transform: translate(100px) skew(-30deg);
+}
+
+.translate:hover {
+     transform: translate(100px)
+    
+}
+
+.origin {
+    transform-origin: 25%75%;
+    margin-bottom:50px;
+}
+
+.origin:hover{
+     transform: rotate(90deg);
+     
+}
